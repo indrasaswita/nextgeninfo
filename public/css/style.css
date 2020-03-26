@@ -10148,6 +10148,46 @@ h3 {
   src: url("font/Magra-Bold.ttf") format("truetype");
   font-weight: bold;
 }
+@media screen and (max-width: 450px) {
+  .page-header .header {
+    font-size: 30px;
+  }
+  .page-header .subheader {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 767px) {
+  .page-header .header {
+    font-size: 40px;
+  }
+  .page-header .subheader {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .page-header .header {
+    font-size: 50px;
+  }
+  .page-header .subheader {
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .page-header .header {
+    font-size: 60px;
+  }
+  .page-header .subheader {
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .page-header .header {
+    font-size: 60px;
+  }
+  .page-header .subheader {
+    font-size: 19px;
+  }
+}
 .page-header {
   padding: 85px 0;
   background-position-y: center;
@@ -10166,12 +10206,6 @@ h3 {
 }
 .page-header.overlap {
   margin-bottom: -200px;
-}
-.page-header .header {
-  font-size: 60px;
-}
-.page-header .subheader {
-  font-size: 16px;
 }
 
 .footer {
@@ -10235,7 +10269,7 @@ h3 {
     width: 100%;
   }
   .ct-card.m-large .inside .title, .ct-card.m-small .inside .title {
-    padding: 0 10px;
+    padding: 0 20px;
     font-size: 130%;
   }
   .ct-card.m-large .inside .content, .ct-card.m-small .inside .content {
@@ -10247,7 +10281,7 @@ h3 {
     width: 100%;
   }
   .ct-card.m-large .inside .title, .ct-card.m-small .inside .title {
-    padding: 0 10px;
+    padding: 0 40px;
     font-size: 130%;
   }
   .ct-card.m-large .inside .content, .ct-card.m-small .inside .content {
@@ -10324,6 +10358,7 @@ h3 {
   .ct-card.m-small .inner-content, .ct-card.m-large .inner-content {
     margin: 20px 20px;
     display: block;
+    background: linear-gradient(-90deg, rgba(0, 10, 50, 0.6) 0, rgba(40, 20, 0, 0.7) 100%);
   }
   .ct-card.m-small .inner-content .image, .ct-card.m-large .inner-content .image {
     width: 100%;
@@ -10332,6 +10367,9 @@ h3 {
     background-position-x: center;
     background-size: cover;
     height: 400px;
+    opacity: 50%;
+    position: relative;
+    z-index: -1;
   }
   .ct-card.m-small .inner-content .inside, .ct-card.m-large .inner-content .inside {
     width: 100%;
@@ -10344,7 +10382,6 @@ h3 {
   .ct-card.m-small .inner-content .inside .title, .ct-card.m-large .inner-content .inside .title {
     color: white;
     font-size: 200%;
-    padding: 5px 0;
     height: 70%;
     display: flex;
     justify-content: center;
@@ -10416,6 +10453,7 @@ h3 {
   .ct-card.m-small .inner-content {
     margin: 20px 20px;
     display: block;
+    background: linear-gradient(-90deg, rgba(0, 10, 50, 0.6) 0, rgba(40, 20, 0, 0.7) 100%);
   }
   .ct-card.m-small .inner-content .image {
     width: 100%;
@@ -10424,6 +10462,9 @@ h3 {
     background-position-x: center;
     background-size: cover;
     height: 400px;
+    opacity: 50%;
+    position: relative;
+    z-index: -1;
   }
   .ct-card.m-small .inner-content .inside {
     width: 100%;
@@ -10485,14 +10526,6 @@ h3 {
 .ct-card .inner-content:hover {
   -webkit-transform: scale(1.01);
   transform: scale(1.01);
-}
-.ct-card.m-small .inner-content {
-  background: linear-gradient(-90deg, rgba(0, 10, 50, 0.6) 0, rgba(40, 20, 0, 0.7) 100%);
-}
-.ct-card.m-small .inner-content > .image {
-  opacity: 50%;
-  position: relative;
-  z-index: -1;
 }
 
 /*# sourceMappingURL=style.css.map */
