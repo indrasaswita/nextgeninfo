@@ -1,6 +1,9 @@
 <div class="footer">
 	<div class="footer-title">
 		<div class="title">
+			<div class="img">
+				<img src="{{URL::asset('')}}image/logo-tp-white-200px.png" width="30px">
+			</div><br>
 			JPCC NEXT GEN
 		</div>
 		<div class="subtitle">

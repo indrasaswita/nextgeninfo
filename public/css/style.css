@@ -10226,6 +10226,13 @@ h3 {
   letter-spacing: 2px;
   font-size: 105%;
 }
+.footer .footer-title .title .img {
+  margin-bottom: 12px;
+  border: 3px solid white;
+  display: inline-block;
+  padding: 4px 2px;
+  opacity: 0.7;
+}
 .footer .footer-title .subtitle {
   line-height: 1.2;
 }

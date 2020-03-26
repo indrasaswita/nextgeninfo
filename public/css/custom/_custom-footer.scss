@@ -9,10 +9,17 @@
 		font-family: Google;
 		font-size: 110%;
 		.title{
+			.img{
+				margin-bottom: 12px;
+				border: 3px solid white;
+				display: inline-block;
+				padding: 4px 2px;
+				opacity: .7;
+			}
 			padding-bottom: 20px;
 			font-weight: 900;
 			letter-spacing: 2px;
-		font-size: 105%;
+			font-size: 105%;
 		}
 		.subtitle{
 			line-height: 1.2;
