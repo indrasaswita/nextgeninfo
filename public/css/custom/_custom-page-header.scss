@@ -1,0 +1,25 @@
+.page-header{
+	padding: 85px 0;
+	background-position-y: center;
+ background-position-x: center;
+ background-size: cover;
+ min-height: 600px;
+ color: #424;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+	-webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 6vw));
+	clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 6vw));
+	z-index: -1;
+ position: relative;
+	&.overlap{
+		margin-bottom: -200px;
+	}
+ .header{
+	 font-size: 60px;
+ }
+ .subheader{
+ 	font-size: 16px;
+ }
+}
