@@ -19668,11 +19668,11 @@ body {
 }
 
 .footer {
-  padding: 40px 10px 30px;
+  padding: 60px 10px 50px;
   background-color: #23222c;
   color: white;
   text-align: center;
-  margin-top: 140px;
+  margin-top: 180px;
 }
 .footer .footer-title {
   padding: 20px 0 30px;
@@ -19833,7 +19833,6 @@ body {
     background-position-x: center;
     background-size: cover;
     height: 400px;
-    opacity: 50%;
     position: relative;
     z-index: -1;
   }
