@@ -7,10 +7,10 @@ use Illuminate\Support\Facades\Schema;
 class CreatePagecontentsTable extends Migration
 {
 	/**
-	 * Run the migrations.
-	 *
-	 * @return void
-	 */
+		* Run the migrations.
+		*
+		* @return void
+		*/
 	public function up()
 	{
 		DB::unprepared("
@@ -51,6 +51,21 @@ class CreatePagecontentsTable extends Migration
 			INSERT INTO pagecontents VALUES (6,1,7, 'locationhome', 'Location', null, '400', '0', null, null, 'Visit Us', null, '400', '0', null, null, '#50ddaf', 'location-bg.jpg', 'page/location', 'VISIT US', 'small', null, null, 6, now(), now());
 			INSERT INTO pagecontents VALUES (7,1,7, 'calendarhome', 'Calendar', null, '400', '0', null, null, 'The latest happenings for you at JPCC Next Gen', null, '400', '0', null, null, '#50afdd', 'calendar-bg.jpg', 'page/calendar', 'LEARN MORE', 'small', null, null, 7, now(), now());
 			INSERT INTO pagecontents VALUES (8,1,7, 'resourceshome', 'Resources', null, '400', '0', null, null, 'Resources for Leaders', null, '400', '0', null, null, '#34a', 'resources-bg.jpg', 'page/resources', 'LEARN MORE', 'small', null, null, 8, now(), now());
+			INSERT INTO pagecontents VALUES (9,2,1, 'kasablankatitle1location', null, null, null, '0', null, null, 'THE KASABLANKA', '200%', '300', '0', '#c94', null, null, null, null, null, null, null, null, 1, now(), now());
+			INSERT INTO pagecontents VALUES (10,2,1, 'servicetimelocation', null, null, null, '0', null, null, 'SERVICE TIME', '85%', '100', '0', '#c94', null, null, null, null, null, null, null, null, 2, now(), now());
+			INSERT INTO pagecontents VALUES (11,2,5, 'jpcckidskokaslocation', 'JPCC Kids (Baby - Grad 6):', '110%', '800', '0', '#444', null, '07:15 | 9:30 | 11:45', '110%', '300', '0', '#444', null, null, null, null, null, null, null, null, 3, now(), now());
+			INSERT INTO pagecontents VALUES (12,2,5, 'jpccyouthkokaslocation', 'JPCC Youth (Grade 7-12):', '110%', '800', '0', '#444', null, '07:15 | 9:30 | 12:45', '110%', '300', '0', '#444', null, null, null, null, null, null, null, null, 4, now(), now());
+			INSERT INTO pagecontents VALUES (13,2,5, 'jpcccampuskokaslocation', 'JPCC Campus (University Students):', '110%', '800', '0', '#444', null, '14:00', '110%', '300', '0', '#444', null, null, null, null, null, null, null, null, 5, now(), now());
+			INSERT INTO pagecontents VALUES (14,2,1, 'locationlocation', null, null, null, '0', null, null, 'LOCATION & DIRECTIONS', '85%', '100', '0', '#c94', null, null, null, null, null, null, null, null, 6, now(), now());
+			INSERT INTO pagecontents VALUES (15,2,5, 'location2location', null, null, null, '0', null, null, 'The Kasablanka<br>Mal Kota Kasablanka 3rd-4th floor<br>Jl. Casablanca Raya Kav. 88<br>Jakarta 12870', '110%', '300', '0', '#444', null, null, null, null, null, null, null, null, 7, now(), now());
+			INSERT INTO pagecontents VALUES (16,2,8, 'linelocation', null, null, null, '0', null, null, null, null, null, '0', null, null, null, null, null, null, null, null, null, 8, now(), now());
+			INSERT INTO pagecontents VALUES (17,9,5, 'phasecard1parenting', 'Phase Card', '150%', null, '0', 'rgb(100, 124, 150)', null, 'Merupakan kumpulan ringkasan singkat tentang fase, info terkait pertumbuhan & perkembangan anak, tips sederhana untuk mempengaruhi pikiran dan hati mereka, mulai dari usia 0 (new baby) - SMA.', null, '400', '0', '#666', null, null, null, null, null, null, null, null, 1, now(), now());
+			INSERT INTO pagecontents VALUES (18,9,2, 'phasecard2parenting', null, null, null, '0', null, null, null, null, null, '0', null, null, 'rgb(100, 124, 150)', null, 'https://nextgen.myjpcc.org/phasecards', 'PHASE CARDS', 'large', null, null, 2, now(), now());
+			INSERT INTO pagecontents VALUES (19,9,8, 'lineparenting', null, null, null, '0', null, null, null, null, null, '0', null, null, null, null, null, null, null, null, null, 3, now(), now());
+			INSERT INTO pagecontents VALUES (20,9,5, 'parentcue1parenting', 'Parent Cue', '150%', null, '0', 'rgb(100, 124, 150)', null, 'Parent Cue merupakan materi dari bahan JPCC Kids & Youth yang bisa diaplikasikan oleh orangtua di rumah. Parent Cue di desain secara khusus untuk menolong orangtua agar dapat menolong anak-anaknya dalam mengembangkan iman yang sejati. Kami akan mengirimankan Parent Cue melalui e-mail. Untuk mendapatkan Parent Cue secara berkala, klik tombol dibawah ini :', null, '400', '0', '#666', null, null, null, null, null, null, null, null, 4, now(), now());
+			INSERT INTO pagecontents VALUES (21,9,2, 'parentcue2parenting', null, null, null, '0', null, null, null, null, null, '0', null, null, 'rgb(100, 124, 150)', null, 'https://nextgen.myjpcc.org/parentcue', 'PARENT CUE', 'large', null, null, 5, now(), now());
+
+
 
 
 
@@ -58,10 +73,10 @@ class CreatePagecontentsTable extends Migration
 	}
 
 	/**
-	 * Reverse the migrations.
-	 *
-	 * @return void
-	 */
+		* Reverse the migrations.
+		*
+		* @return void
+		*/
 	public function down()
 	{
 		Schema::dropIfExists('pagecontents');

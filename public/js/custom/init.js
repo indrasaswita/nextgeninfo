@@ -1,4 +1,4 @@
-module.exports = angular.module('nextgen-info', 
+module.exports = angular.module('nextgeninfo', 
 	[
 		"ngRoute",
 		"ngResource",
@@ -10,4 +10,5 @@ module.exports = angular.module('nextgen-info',
 		$interpolateProvider.startSymbol('[[');
 		$interpolateProvider.endSymbol(']]');
 	}
+
 )

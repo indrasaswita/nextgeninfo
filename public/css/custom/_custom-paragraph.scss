@@ -1,0 +1,36 @@
+@media screen and (max-width:450px){
+	.ct-paragraph{
+		margin: 25px 10px;
+	}
+}
+
+@media screen and (min-width:451px) and (max-width:767px){
+	.ct-paragraph{
+		margin: 30px 10px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.ct-paragraph{
+		margin: 35px 10px;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+	.ct-paragraph{
+		margin: 40px 10px;
+	}
+}
+
+@media screen and (min-width:1201px){
+	.ct-paragraph{
+		margin: 45px 10px;
+	}
+}
+
+.ct-paragraph{
+	font-size: 120%;
+	.title{
+		margin-bottom: 25px;
+	}
+}

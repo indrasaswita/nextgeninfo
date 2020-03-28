@@ -21,6 +21,8 @@
         "sass-loader": "^8.0.0"
     },
     "dependencies": {
+        "@angular/cli": "^9.1.0",
+        "@fortawesome/fontawesome-pro": "^5.13.0",
         "angular": "^1.7.9",
         "angular-resource": "^1.7.9",
         "angular-route": "^1.7.9",

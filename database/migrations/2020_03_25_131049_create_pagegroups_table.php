@@ -19,6 +19,7 @@ class CreatePagegroupsTable extends Migration
 				name VARCHAR(32) NOT NULL,
 				queue INT UNSIGNED NOT NULL DEFAULT 0,
 				asalist INT(1) UNSIGNED NOT NULL DEFAULT 0,
+				showinnav INT(1) UNSIGNED NOT NULL DEFAULT 1,
 				created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 				updated_at TIMESTAMP NULL
 			);
@@ -28,6 +29,7 @@ class CreatePagegroupsTable extends Migration
 		DB::unprepared("INSERT INTO pagegroups (name, queue, asalist) VALUES ('Location', 3, 0)");
 		DB::unprepared("INSERT INTO pagegroups (name, queue, asalist) VALUES ('Serve', 2, 1)");
 		DB::unprepared("INSERT INTO pagegroups (name, queue, asalist) VALUES ('Calendar', 4, 0)");
+		DB::unprepared("INSERT INTO pagegroups (name, queue, asalist, showinnav) VALUES ('Unshown', 4, 0, 0)");
 	}
 
 	/**

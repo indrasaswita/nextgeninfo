@@ -1,0 +1,57 @@
+@media screen and (max-width:450px){
+	.ct-singlebutton{
+		margin: 15px 15px;
+		&.m-large .btn{
+			padding: 10px 20px;
+		}
+	}
+}
+
+@media screen and (min-width:451px) and (max-width:767px){
+	.ct-singlebutton{
+		margin: 15px 20px;
+		&.m-large .btn{
+			padding: 12px 30px;
+		}
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.ct-singlebutton{
+		margin: 20px 20px;
+		&.m-large .btn{
+			padding: 15px 35px;
+		}
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+	.ct-singlebutton{
+		margin: 25px 20px;
+		&.m-large .btn{
+			padding: 15px 40px;
+		}
+	}
+}
+
+@media screen and (min-width:1201px){
+	.ct-singlebutton{
+		margin: 25px 20px;
+		&.m-large .btn{
+			padding: 15px 40px;
+		}
+	}
+}
+
+
+.ct-singlebutton{
+	text-align: center;
+	&.m-large{
+		.btn{
+			letter-spacing: 1px;
+			min-width: 300px;
+			font-size: 120%;
+			border-radius: 10px;
+		}
+	}
+}

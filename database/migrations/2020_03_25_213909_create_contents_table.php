@@ -33,6 +33,7 @@ class CreateContentsTable extends Migration
         DB::unprepared("INSERT INTO contents (name) VALUES ('paragraph');");
         DB::unprepared("INSERT INTO contents (name) VALUES ('box');");
         DB::unprepared("INSERT INTO contents (name) VALUES ('card');");
+        DB::unprepared("INSERT INTO contents (name) VALUES ('line');");
     }
 
     /**

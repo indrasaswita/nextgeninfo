@@ -39,6 +39,7 @@ class CreatePagesTable extends Migration
 		DB::unprepared("INSERT INTO pages(pagetypeID, pagegroupID, link, name, pageheader, subheader, headerbackground) VALUES (8, 3, 'interns', 'Interns', 'Interns', null, 'interns-bg.jpg')");
 		DB::unprepared("INSERT INTO pages(pagetypeID, pagegroupID, link, name, pageheader, subheader, headerbackground) VALUES (8, 3, 'servewithme', 'Serve With Me', 'Serve With Me', null, 'servewithme-bg.jpg')");
 		DB::unprepared("INSERT INTO pages(pagetypeID, pagegroupID, link, name, pageheader, subheader, headerbackground) VALUES (8, 4, 'calendar', 'Calendar', 'Calendar', 'The latest happenings for you at JPCC Next Gen', 'calendar-bg.jpg')");
+		DB::unprepared("INSERT INTO pages(pagetypeID, pagegroupID, link, name, pageheader, subheader, headerbackground) VALUES (8, 5, 'parenting', 'Parenting', 'Parenting', 'Learn more to access our Phase Cards & monthly Parent Cue', 'parenting-bg.jpg')");
 	}
 
 	/**

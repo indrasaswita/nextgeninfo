@@ -6,11 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pagegroup extends Model
 {
-	protected $fillable = ['name', 'queue', 'asalist'];
+	protected $fillable = ['name', 'queue', 'asalist', 'showinnav'];
 	protected $guarded = ['id'];
 	protected $dates = ['created_at', 'updated_at'];
 	protected $casts = [
-		"asalist" => "boolean"
+		"asalist" => "boolean",
+		"showinnav" => "boolean"
 	];
 
 
