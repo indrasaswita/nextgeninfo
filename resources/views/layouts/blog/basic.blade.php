@@ -7,7 +7,7 @@
 <body ng-app="nextgeninfo">
 	<div ng-controller="Godhands as god">
 		@include('includes.header')
-		<div class="content-wrapper">
+		<div class="content-wrapper page-container">
 			@yield('content')
 		</div>
 		@include('includes.footer')

@@ -2,7 +2,6 @@
 @section('title', 'HelloWorld')
 @section('content')
 
-<div class="page-container">
 @foreach($pageinfo->pagecontent as $content)
 	@if($content->content->name=='card')
 	<div class="ct-{{$content->content->name}} m-{{$content->size}}">
@@ -60,6 +59,5 @@
 	</div>
 	@endif
 @endforeach
-</div>
 
 @stop
