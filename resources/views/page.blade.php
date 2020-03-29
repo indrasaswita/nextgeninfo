@@ -1,5 +1,7 @@
 @extends("layouts.{$pageinfo->pagetype->pagetypegroup->name}.{$pageinfo->pagetype->name}")
-@section('title', 'HelloWorld')
+@section('title')
+{{strtoupper($pageinfo->name)}}
+@stop
 @section('content')
 
 @foreach($pageinfo->pagecontent as $content)

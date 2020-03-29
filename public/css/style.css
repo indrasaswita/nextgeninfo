@@ -19851,6 +19851,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    letter-spacing: 1px;
   }
   .ct-card.m-small .inner-content .inside .content, .ct-card.m-large .inner-content .inside .content {
     color: #666;
