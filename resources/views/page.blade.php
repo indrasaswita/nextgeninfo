@@ -36,7 +36,7 @@
 					{{$content->titletext}}
 				</div>
 				<div class="content" style="{{$content->contentcolor==null?'':'color:'.$content->contentcolor.';'}}{{$content->contentweight==null?'':'font-weight:'.$content->contentweight.';'}}{{$content->contentsize==null?'':'font-size:'.$content->contentsize.';'}}">
-					{{$content->contenttext}}
+					{!! $content->contenttext !!}
 				</div>
 		@if($content->linktitle!=null)
 				<div class="action">
@@ -54,6 +54,10 @@
 		<a class="btn btn-secondary" href="{{$content->linkurl}}">
 			{{$content->linktitle}}
 		</a>
+	</div>
+	@elseif($content->content->name=='singletext')
+	<div class="ct-{{$content->content->name}} m-{{$content->size}}" style="{{$content->contentcolor==null?'':'color:'.$content->contentcolor.';'}}{{$content->contentweight==null?'':'font-weight:'.$content->contentweight.';'}}{{$content->contentsize==null?'':'font-size:'.$content->contentsize.';'}}">
+		{{$content->contenttext}}
 	</div>
 	@elseif($content->content->name=='line')
 	<div class="ct-{{$content->content->name}} m-{{$content->size}}">

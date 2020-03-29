@@ -19283,27 +19283,27 @@ body {
 
 @media screen and (max-width: 450px) {
   .content-wrapper {
-    padding: 0 5px;
+    padding: 0 20px;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 767px) {
   .content-wrapper {
-    padding: 0 10px;
+    padding: 0 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .content-wrapper {
-    padding: 0 15px;
+    padding: 0 20px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .content-wrapper {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 }
 @media screen and (min-width: 1201px) {
   .content-wrapper {
-    padding: 0 30px;
+    padding: 0 0px;
   }
 }
 .content-wrapper {
@@ -20051,59 +20051,62 @@ body {
 
 @media screen and (max-width: 450px) {
   .ct-paragraph {
-    margin: 25px 10px;
+    margin: 25px 0;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 767px) {
   .ct-paragraph {
-    margin: 30px 10px;
+    margin: 30px 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .ct-paragraph {
-    margin: 35px 10px;
+    margin: 35px 0;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .ct-paragraph {
-    margin: 40px 10px;
+    margin: 40px 0;
   }
 }
 @media screen and (min-width: 1201px) {
   .ct-paragraph {
-    margin: 45px 10px;
+    margin: 45px 0;
   }
 }
 .ct-paragraph {
   font-size: 120%;
 }
-.ct-paragraph .title {
+.ct-paragraph.large .title {
   margin-bottom: 25px;
+}
+.ct-paragraph.medium .title {
+  margin-bottom: 12px;
 }
 
 @media screen and (max-width: 450px) {
   .ct-line {
-    padding: 15px 10px;
+    padding: 15px 0;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 767px) {
   .ct-line {
-    padding: 20px 10px;
+    padding: 20px 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .ct-line {
-    padding: 25px 10px;
+    padding: 25px 0;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .ct-line {
-    padding: 30px 10px;
+    padding: 30px 0;
   }
 }
 @media screen and (min-width: 1201px) {
   .ct-line {
-    padding: 40px 10px;
+    padding: 40px 0;
   }
 }
 .ct-line {
@@ -20112,9 +20115,49 @@ body {
 
 .page-container {
   max-width: 100%;
-  padding: 0;
   margin: 0 auto;
   width: 700px;
+}
+
+@media screen and (max-width: 450px) {
+  .ct-singletext.m-large {
+    margin: 25px 0;
+  }
+  .ct-singletext.m-medium {
+    margin: 12px 0;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 767px) {
+  .ct-singletext.m-large {
+    margin: 25px 0;
+  }
+  .ct-singletext.m-medium {
+    margin: 12px 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .ct-singletext.m-large {
+    margin: 25px 0;
+  }
+  .ct-singletext.m-medium {
+    margin: 12px 0;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .ct-singletext.m-large {
+    margin: 25px 0;
+  }
+  .ct-singletext.m-medium {
+    margin: 12px 0;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .ct-singletext.m-large {
+    margin: 25px 0;
+  }
+  .ct-singletext.m-medium {
+    margin: 12px 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
